@@ -18,6 +18,18 @@
                     <x-nav-link :href="route('members.list')" :active="request()->routeIs('members.list')">
                         {{ __('Members') }}
                     </x-nav-link>
+                    <x-nav-link :href="route('subscriptions.index')" :active="request()->routeIs('subscriptions.index')">
+                        {{ __('subscriptions') }}
+                    </x-nav-link>
+                    <x-nav-link :href="route('trainers.index')" :active="request()->routeIs('trainers.index')">
+                        {{ __('trainers') }}
+                    </x-nav-link>
+                    <x-nav-link :href="route('plans.index')" :active="request()->routeIs('plans.index')">
+                        {{ __('plans') }}
+                    </x-nav-link>
+                    <x-nav-link :href="route('sessions.index')" :active="request()->routeIs('sessions.index')">
+                        {{ __('sessions') }}
+                    </x-nav-link>
                 </div>
             </div>
 
